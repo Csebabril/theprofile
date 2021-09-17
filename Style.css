@@ -1,0 +1,333 @@
+body{
+    background-color: lightcyan;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+a:hover{
+    color:cyan;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    min-height: 25px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;    
+    text-align: center;
+    
+
+}
+
+.menuBar{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: 600;
+    margin:0 auto;
+    padding: 0 15%;
+
+}
+
+.menuBar a{
+    transition: all 2s;
+    color: lightslategrey;
+}
+
+.menuBar a:hover{
+    color: white;
+}
+
+.menuName{
+    margin-right: auto;
+    display: block;
+    
+}
+
+.menuBar li{
+    padding: 5px 10px 10px 10px;
+
+}
+
+
+
+
+.Banner{
+    background-image: url(Images/wp4117371.webp)  ;
+    text-align: center;
+    background-size:cover;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.profilePic{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all 1s;
+}
+
+.profilePic:hover{
+    transform: scale(1.5) rotate(360deg);
+}
+
+.bannerName{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    display: table;
+    margin:  auto;
+    margin-top: 15px;
+
+}
+
+.bannerLocation{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    display: table;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+.box{
+    background-color: whitesmoke;
+    text-align: left;
+    margin: 40px ;
+    padding:  30px 50px 50px;
+    max-width: 450px;
+    border-radius: 10px;
+    transition: all 2s;
+    border-bottom: 5px solid gray;
+
+}
+
+.box:hover{
+    border-color: red;
+}
+
+.languages li{
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: orange;
+    margin: 3px;
+    padding: 5px 5px;
+}
+
+.languages li:nth-child(odd){
+    background-color: lightskyblue;
+}
+
+footer{
+    padding: 30px 10px 50px 30px;
+    text-align: center;
+    
+
+}
+
+.mediaLinks li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.copyr{
+    padding-left: 30px;
+}
+
+a.media{
+
+    background-size: 30px 30px;
+    display: inline-block;
+    transition: all 1s;
+    text-indent: -9999px;
+    opacity: .4;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+a.twitter {
+    background-image: url(images/twitter.svg);
+  }
+a.linkedin {
+    background-image: url(images/linkedin.svg);
+  }
+a.github {
+    background-image: url(images/github.svg);
+  }
+
+a.media:hover{
+    opacity: 1;
+    background-color: red;
+}
+
+
+
+.expereince{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/009/666/897/large/daniele-afferni-asc-20171022-150004.jpg?1520247365)  ;
+    text-align: center;
+    background-size:cover;
+    overflow: hidden;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    
+}
+.expereince:hover{
+    transform: scale(1.1)
+}
+
+.titleEx{
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+    display: table;
+    margin: auto;
+    margin-top: 5px;
+    position: relative;
+    color: white;
+    
+
+}
+
+.expP{
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+    display: table;
+    margin: auto;
+    margin-top: 55px;
+    color: white;
+
+}
+
+.hobbies{
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdnb.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F000%2F705%2F345%2Flarge%2Fkhyzyl-saleem-e92web.jpg%3F1443926890&f=1&nofb=1);
+    background-size:cover;
+    overflow: hidden;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+
+}
+
+.hobdes{
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+    display: table;
+    margin: auto;
+    margin-top: 5px;
+    position: relative;
+    color: white;
+    opacity: 85%;
+
+
+}
+
+.hobbies2{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2F0%2Ff%2Fb%2F496952-3d-animation-wallpaper-2560x1600-for-computer.jpg&f=1&nofb=1);
+    background-size:cover;
+    overflow: hidden;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+
+}
+
+
+
+
+
+.hobbies3{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F39075.png&f=1&nofb=1);
+    background-size:cover;
+    overflow: hidden;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+
+}
+
+.hobbies4{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblogs.transparent.com%2Fpolish%2Ffiles%2F2018%2F06%2Fsurfing-2192675_1920.jpg&f=1&nofb=1);
+    background-size:cover;
+    overflow: hidden;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+  
+    main{
+        display: -ms-flexbox;      
+        display: flex; 
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    .Banner{
+      min-height: 470px;
+    }
+  
+    header{
+        max-width: 4000px;
+        padding: 0 30px;
+        
+    }
+  
+  
+    main {
+      padding-top: 20px;
+    }
+  
+    main p {
+      line-height: 1.6em;
+    }
+  
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+  
+  }
